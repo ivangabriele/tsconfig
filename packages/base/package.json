@@ -1,0 +1,23 @@
+{
+  "name": "@ivangabriele/tsconfig-base",
+  "description": "My most commonly used Typescript Base configuration.",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "./index.json",
+  "author": {
+    "email": "ivan.gabriele@gmail.com",
+    "name": "Ivan Gabriele",
+    "url": "https://www.ivangabriele.com"
+  },
+  "bugs": {
+    "url": "https://github.com/ivangabriele/tsconfig/issues"
+  },
+  "homepage": "https://github.com/ivangabriele/tsconfig#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivangabriele/tsconfig.git"
+  }
+}
