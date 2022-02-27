@@ -20,7 +20,5 @@
     "sourceMap": true,
     "strict": true,
     "target": "ES2020"
-  },
-  "exclude": ["dist/*", "node_modules/*"],
-  "include": ["**/*.cjs", "**/*.js", "**/*.jsx", "**/*.mjs", "**/*.ts", "**/*.tsx"]
+  }
 }
