@@ -13,11 +13,11 @@ function run(command) {
 
 ;(() => {
   try {
-    run(`git checkout -B ${VERSION}`)
+    run(`git checkout -B ci-release-${VERSION}`)
     run(`yarn`)
     run(`npm version ${VERSION} --workspaces`)
     run(`git add .`)
-    run(`git commit --amend --no-edit`)
+    run(`git commit --amend -m "ci(release): ${VERSION}"`)
     run(`git tag -f v${VERSION}`)
     run(`git push origin HEAD --tags`)
     run(`git checkout main`)
