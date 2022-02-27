@@ -1,7 +1,7 @@
 {
   "name": "@ivangabriele/tsconfig-node",
   "description": "My most commonly used Typescript Node.js configuration.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "main": "./tsconfig.json",
   "author": {
