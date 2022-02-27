@@ -1,7 +1,7 @@
 {
   "name": "@ivangabriele/tsconfig-base",
   "description": "My most commonly used Typescript Base configuration.",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "./index.json",
   "author": {
