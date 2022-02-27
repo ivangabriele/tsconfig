@@ -3,7 +3,7 @@
   "description": "My most commonly used Typescript Node.js configuration.",
   "version": "1.0.0",
   "license": "MIT",
-  "main": "./index.json",
+  "main": "./tsconfig.json",
   "author": {
     "email": "ivan.gabriele@gmail.com",
     "name": "Ivan Gabriele",
