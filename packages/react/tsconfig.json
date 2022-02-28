@@ -21,5 +21,9 @@
     "sourceMap": true,
     "strict": true,
     "target": "ES2020"
+  },
+  "ts-node": {
+    "transpiler": "ts-node/transpilers/swc-experimental",
+    "transpileOnly": true
   }
 }
