@@ -187,10 +187,10 @@
   resolved "https://registry.yarnpkg.com/@ivangabriele/commitlint-config/-/commitlint-config-1.0.5.tgz#830d054d06f3c69b5ffd116acea96ccee0d298a6"
   integrity sha512-zit08hx022BT9KNjj/7tgUIqdLNec/QgTyYOkOFieIAEah2UxHA7pD3B59lODkZzCL2XrGnFL189t/aNlv1IQA==
 
-"@ivangabriele/prettier-config@3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@ivangabriele/prettier-config/-/prettier-config-3.0.2.tgz#27cc7be7b9787248936cc2744ab0750f033320a6"
-  integrity sha512-IlkhHdhDvj6me23zhB4xjXUdFLJGGeE1Od3gof04BzgLL+439bMHFQA1ZuA//+F+ENtDxNvY9dg14aOLzaAU1Q==
+"@ivangabriele/prettier-config@4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@ivangabriele/prettier-config/-/prettier-config-4.0.1.tgz#bf091f4b73ad16f083e2978cec065ca6a677be5d"
+  integrity sha512-BXGZZmGoCAHtaDZ1DYYQXbgYgd3qZmLWpKenJesuduZOvVev8jxVBpF8+zgx5Z8xYk8DnHudBwSIBRj4UhoiDQ==
 
 "@jridgewell/resolve-uri@^3.0.3":
   version "3.0.7"
