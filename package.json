@@ -1,11 +1,14 @@
 {
   "name": "@ivangabriele/tsconfig",
   "description": "My most commonly used Typescript configurations.",
-  "version": "1.2.2",
   "license": "MIT",
+  "version": "1.2.2",
+  "private": true,
+  "workspaces": [
+    "./packages/*"
+  ],
   "scripts": {
     "prepare": "husky install",
-    "test": "yarn test:lint",
     "test:lint": "prettier -c .",
     "preversion": "yarn test",
     "postversion": "node ./scripts/finalizeVersionBump.js"
@@ -19,9 +22,6 @@
     "prettier": "2.6.2",
     "shelljs": "0.8.5"
   },
-  "prettier": "@ivangabriele/prettier-config",
-  "workspaces": [
-    "./packages/*"
-  ],
-  "packageManager": "yarn@4.1.0"
+  "packageManager": "yarn@4.1.0",
+  "prettier": "@ivangabriele/prettier-config"
 }

@@ -5,8 +5,8 @@
   "license": "MIT",
   "main": "./tsconfig.json",
   "author": {
-    "email": "ivan.gabriele@gmail.com",
     "name": "Ivan Gabriele",
+    "email": "ivan.gabriele@protonmail.com",
     "url": "https://www.ivangabriele.com"
   },
   "bugs": {

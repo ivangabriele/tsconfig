@@ -4,11 +4,28 @@
 
 My most commonly used Typescript configurations.
 
+---
+
+- [Usage](#usage)
+  - [Base](#base)
+  - [Node](#node)
+  - [React](#react)
+  - [Next](#next)
+- [Contribute](#contribute)
+
+---
+
 ## Usage
 
 ### Base
 
 [![img-npm-base]][lnk-npm-base]
+
+```sh
+npm i -DE @ivangabriele/tsconfig-base
+```
+
+or:
 
 ```sh
 yarn add -DE @ivangabriele/tsconfig-base
@@ -27,6 +44,12 @@ Then extend it in your `tsconfig.json`:
 [![img-npm-node]][lnk-npm-node]
 
 ```sh
+npm i -DE @ivangabriele/tsconfig-node
+```
+
+or:
+
+```sh
 yarn add -DE @ivangabriele/tsconfig-node
 ```
 
@@ -41,6 +64,12 @@ Then extend it in your `tsconfig.json`:
 ### React
 
 [![img-npm-react]][lnk-npm-react]
+
+```sh
+npm i -DE @ivangabriele/tsconfig-react
+```
+
+or:
 
 ```sh
 yarn add -DE @ivangabriele/tsconfig-react
@@ -59,6 +88,12 @@ Then extend it in your `tsconfig.json`:
 [![img-npm-next]][lnk-npm-next]
 
 ```sh
+npm i -DE @ivangabriele/tsconfig-next
+```
+
+or:
+
+```sh
 yarn add -DE @ivangabriele/tsconfig-next
 ```
 
@@ -70,14 +105,19 @@ Then extend it in your `tsconfig.json`:
 }
 ```
 
+## Contribute
+
+Please refer to the [contribution guidelines](./CONTRIBUTING.md) for information on how to contribute to this project.
+
 ---
 
-[img-github]: https://img.shields.io/github/workflow/status/ivangabriele/tsconfig/Check/main?style=flat-square
-[img-license]: https://img.shields.io/github/license/ivangabriele/tsconfig?style=flat-square
-[img-npm-base]: https://img.shields.io/npm/v/@ivangabriele/tsconfig-base?style=flat-square
-[img-npm-next]: https://img.shields.io/npm/v/@ivangabriele/tsconfig-next?style=flat-square
-[img-npm-node]: https://img.shields.io/npm/v/@ivangabriele/tsconfig-node?style=flat-square
-[img-npm-react]: https://img.shields.io/npm/v/@ivangabriele/tsconfig-react?style=flat-square
+[img-github]:
+  https://img.shields.io/github/actions/workflow/status/ivangabriele/tsconfig/check.yml?branch=main&label=CI&style=for-the-badge
+[img-license]: https://img.shields.io/github/license/ivangabriele/tsconfig?style=for-the-badge
+[img-npm-base]: https://img.shields.io/npm/v/@ivangabriele/tsconfig-base?style=for-the-badge
+[img-npm-next]: https://img.shields.io/npm/v/@ivangabriele/tsconfig-next?style=for-the-badge
+[img-npm-node]: https://img.shields.io/npm/v/@ivangabriele/tsconfig-node?style=for-the-badge
+[img-npm-react]: https://img.shields.io/npm/v/@ivangabriele/tsconfig-react?style=for-the-badge
 [lnk-github]: https://github.com/ivangabriele/tsconfig/actions?query=branch%3Amain++
 [lnk-license]: https://github.com/ivangabriele/tsconfig/blob/main/LICENSE
 [lnk-npm-base]: https://www.npmjs.com/package/@ivangabriele/tsconfig-base
