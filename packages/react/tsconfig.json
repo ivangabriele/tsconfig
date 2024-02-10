@@ -20,7 +20,8 @@
     "skipLibCheck": true,
     "sourceMap": true,
     "strict": true,
-    "target": "ES2020"
+    "target": "ES2020",
+    "verbatimModuleSyntax": true
   },
   "ts-node": {
     "transpiler": "ts-node/transpilers/swc-experimental",
