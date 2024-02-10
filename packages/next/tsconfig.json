@@ -15,7 +15,7 @@
     "moduleResolution": "Node",
     "noEmit": true,
     "noImplicitAny": false,
-    "noImplicitReturns": false,
+    "noImplicitReturns": true,
     "removeComments": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
