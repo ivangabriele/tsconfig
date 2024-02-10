@@ -22,9 +22,5 @@
     "strict": true,
     "target": "ES2020",
     "verbatimModuleSyntax": true
-  },
-  "ts-node": {
-    "transpiler": "ts-node/transpilers/swc-experimental",
-    "transpileOnly": true
   }
 }
