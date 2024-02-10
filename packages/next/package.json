@@ -1,9 +1,13 @@
 {
   "name": "@ivangabriele/tsconfig-next",
   "description": "My most commonly used Typescript Next.js configuration.",
-  "version": "1.2.2",
   "license": "MIT",
+  "version": "1.2.2",
+  "type": "module",
   "main": "./tsconfig.json",
+  "engines": {
+    "node": ">=20"
+  },
   "peerDependencies": {
     "typescript": "^5"
   },
