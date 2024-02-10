@@ -305,6 +305,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@ivangabriele/tsconfig-next@workspace:packages/next"
   peerDependencies:
+    next: ^14
     typescript: ^5
   languageName: unknown
   linkType: soft
