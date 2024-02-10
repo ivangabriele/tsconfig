@@ -11,7 +11,7 @@
     "./packages/*"
   ],
   "scripts": {
-    "prepare": "husky install",
+    "prepare": "husky",
     "test:lint": "prettier -c .",
     "preversion": "yarn test",
     "postversion": "node ./scripts/finalizeVersionBump.js"
