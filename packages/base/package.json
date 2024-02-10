@@ -2,7 +2,7 @@
   "name": "@ivangabriele/tsconfig-base",
   "description": "My most commonly used Typescript Base configuration.",
   "license": "MIT",
-  "version": "1.2.2",
+  "version": "2.0.0",
   "type": "module",
   "main": "./tsconfig.json",
   "engines": {
