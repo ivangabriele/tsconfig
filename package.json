@@ -4,6 +4,9 @@
   "license": "MIT",
   "version": "1.2.2",
   "private": true,
+  "engines": {
+    "node": ">=20"
+  },
   "workspaces": [
     "./packages/*"
   ],
