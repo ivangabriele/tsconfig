@@ -3,7 +3,6 @@
   "description": "My most commonly used Typescript configurations.",
   "version": "1.2.2",
   "license": "MIT",
-  "private": "true",
   "scripts": {
     "prepare": "husky install",
     "test": "yarn test:lint",
@@ -23,5 +22,6 @@
   "prettier": "@ivangabriele/prettier-config",
   "workspaces": [
     "./packages/*"
-  ]
+  ],
+  "packageManager": "yarn@4.1.0"
 }
