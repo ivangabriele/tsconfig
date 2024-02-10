@@ -12,19 +12,27 @@
   ],
   "scripts": {
     "prepare": "husky",
-    "test:lint": "prettier -c .",
-    "preversion": "yarn test",
-    "postversion": "node ./scripts/finalizeVersionBump.js"
+    "release": "semantic-release",
+    "test:lint": "prettier --check ."
   },
   "devDependencies": {
     "@commitlint/cli": "18.6.0",
     "@commitlint/config-conventional": "18.6.0",
     "@ivangabriele/commitlint-config": "2.0.3",
     "@ivangabriele/prettier-config": "5.0.1",
+    "@ivangabriele/semantic-release-config-monorepo": "4.1.5",
     "husky": "9.0.10",
     "prettier": "3.2.5",
+    "semantic-release": "23.0.2",
     "shelljs": "0.8.5"
   },
   "packageManager": "yarn@4.1.0",
-  "prettier": "@ivangabriele/prettier-config"
+  "prettier": "@ivangabriele/prettier-config",
+  "release": {
+    "extends": "@ivangabriele/semantic-release-config-monorepo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivangabriele/tsconfig.git"
+  }
 }

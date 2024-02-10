@@ -4,20 +4,28 @@
   "version": "1.2.2",
   "license": "MIT",
   "main": "./tsconfig.json",
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
   "author": {
     "name": "Ivan Gabriele",
     "email": "ivan.gabriele@protonmail.com",
     "url": "https://www.ivangabriele.com"
   },
-  "bugs": {
-    "url": "https://github.com/ivangabriele/tsconfig/issues"
-  },
-  "homepage": "https://github.com/ivangabriele/tsconfig#readme",
-  "publishConfig": {
-    "access": "public"
-  },
+  "bugs": "https://github.com/ivangabriele/tsconfig/issues",
+  "homepage": "https://github.com/ivangabriele/tsconfig/blob/main/packages/base/README.md",
+  "keywords": [
+    "config",
+    "tsconfig",
+    "typescript"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ivangabriele/tsconfig.git"
+    "url": "git+https://github.com/ivangabriele/tsconfig.git",
+    "directory": "packages/base"
   }
 }
