@@ -9,6 +9,7 @@
     "node": ">=20"
   },
   "peerDependencies": {
+    "next": "^14",
     "typescript": "^5"
   },
   "publishConfig": {

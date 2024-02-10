@@ -16,6 +16,11 @@
     "noEmit": true,
     "noImplicitAny": false,
     "noImplicitReturns": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
     "removeComments": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
