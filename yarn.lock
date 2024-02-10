@@ -33,31 +33,41 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cli@npm:17.0.0":
-  version: 17.0.0
-  resolution: "@commitlint/cli@npm:17.0.0"
+"@commitlint/cli@npm:17.8.1":
+  version: 17.8.1
+  resolution: "@commitlint/cli@npm:17.8.1"
   dependencies:
-    "@commitlint/format": "npm:^17.0.0"
-    "@commitlint/lint": "npm:^17.0.0"
-    "@commitlint/load": "npm:^17.0.0"
-    "@commitlint/read": "npm:^17.0.0"
-    "@commitlint/types": "npm:^17.0.0"
-    lodash: "npm:^4.17.19"
+    "@commitlint/format": "npm:^17.8.1"
+    "@commitlint/lint": "npm:^17.8.1"
+    "@commitlint/load": "npm:^17.8.1"
+    "@commitlint/read": "npm:^17.8.1"
+    "@commitlint/types": "npm:^17.8.1"
+    execa: "npm:^5.0.0"
+    lodash.isfunction: "npm:^3.0.9"
     resolve-from: "npm:5.0.0"
     resolve-global: "npm:1.0.0"
     yargs: "npm:^17.0.0"
   bin:
     commitlint: cli.js
-  checksum: 10c0/b851dc22acda43bf4bfa3626f465eff697bbdfcbe6032c41275a5520ccb53e1c9e247a3fa51be5088c94523e10e5a2285bb87888fe2de9f1e8c3135dda895a6e
+  checksum: 10c0/d8f4f3d8601703271f6cef15f5a35864de1e4f949fba7a8bf5c8be786ed4d231208b7322068c5126d08d0885ecfec77cf0fcdc12ae59e72b514d68dbccd4451f
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:17.0.0":
-  version: 17.0.0
-  resolution: "@commitlint/config-conventional@npm:17.0.0"
+"@commitlint/config-conventional@npm:17.6.6":
+  version: 17.6.6
+  resolution: "@commitlint/config-conventional@npm:17.6.6"
   dependencies:
-    conventional-changelog-conventionalcommits: "npm:^4.3.1"
-  checksum: 10c0/59c5edca7e9c69427f5338cfe357add053bd3b2f692cdd2cdab4431fa985fd123554ff5a64e7d71c3201ce6cbcb4e2b4a2c90fa410745e799aca59a1f2db92e6
+    conventional-changelog-conventionalcommits: "npm:^5.0.0"
+  checksum: 10c0/1f0c1288404caf9565ed3dc186f67f4c84197a3c5a3d422e02a8442b26a798da3b524c48ddaf195d5121577323fc37b68c5efc53dbca7f0004140e328f941e90
+  languageName: node
+  linkType: hard
+
+"@commitlint/config-conventional@npm:17.8.1":
+  version: 17.8.1
+  resolution: "@commitlint/config-conventional@npm:17.8.1"
+  dependencies:
+    conventional-changelog-conventionalcommits: "npm:^6.1.0"
+  checksum: 10c0/70abdc9f1361386060b30620decc376bc33ff0c27c6f2f89511df1d53127d238af7c3409db22651282caa614d54b91b1f5e35905d12b1f5db70603c351f6e482
   languageName: node
   linkType: hard
 
@@ -92,7 +102,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/format@npm:^17.0.0":
+"@commitlint/format@npm:^17.8.1":
   version: 17.8.1
   resolution: "@commitlint/format@npm:17.8.1"
   dependencies:
@@ -112,7 +122,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/lint@npm:^17.0.0":
+"@commitlint/lint@npm:^17.8.1":
   version: 17.8.1
   resolution: "@commitlint/lint@npm:17.8.1"
   dependencies:
@@ -124,7 +134,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/load@npm:^17.0.0":
+"@commitlint/load@npm:^17.8.1":
   version: 17.8.1
   resolution: "@commitlint/load@npm:17.8.1"
   dependencies:
@@ -164,7 +174,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/read@npm:^17.0.0":
+"@commitlint/read@npm:^17.8.1":
   version: 17.8.1
   resolution: "@commitlint/read@npm:17.8.1"
   dependencies:
@@ -220,7 +230,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/types@npm:^17.0.0, @commitlint/types@npm:^17.8.1":
+"@commitlint/types@npm:^17.8.1":
   version: 17.8.1
   resolution: "@commitlint/types@npm:17.8.1"
   dependencies:
@@ -238,23 +248,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ivangabriele/commitlint-config@npm:1.0.5":
-  version: 1.0.5
-  resolution: "@ivangabriele/commitlint-config@npm:1.0.5"
-  peerDependencies:
-    "@commitlint/cli": ^16.1.0
-    "@commitlint/config-conventional": ^16.0.0
-    husky: ^7.0.4
-  checksum: 10c0/a7e99d3aeee0499a7f7846cb956d1021834cfbccc1a75ef1ea103f3d2a269bacbc5f9a48299006652d421d4969d500d5ccc902bde233d4501f4757ff46c2f02d
+"@ivangabriele/commitlint-config@npm:1.1.0":
+  version: 1.1.0
+  resolution: "@ivangabriele/commitlint-config@npm:1.1.0"
+  dependencies:
+    "@commitlint/config-conventional": "npm:17.6.6"
+  checksum: 10c0/c3967be7266be317eb440401a3b023ae02cc9fc0e54368a4717e1f8ca78d8f3ae2c45892b3e066ff97016d914a2ac0f20a992e5cd251304c88aaef1512fa0b2e
   languageName: node
   linkType: hard
 
-"@ivangabriele/prettier-config@npm:3.0.2":
-  version: 3.0.2
-  resolution: "@ivangabriele/prettier-config@npm:3.0.2"
+"@ivangabriele/prettier-config@npm:3.2.0":
+  version: 3.2.0
+  resolution: "@ivangabriele/prettier-config@npm:3.2.0"
   peerDependencies:
-    prettier: ^2.5.1
-  checksum: 10c0/6193d570cbd11340ebcde36747f1c1deec2c11b024d69071460b046443113bb33cddf3f497b3568f9894558f99f142ff3e88e0094480dbc712ec9e3dacf551f8
+    prettier: ^3.0.0
+  checksum: 10c0/e06361c0d4eb7924b30d6b1fb2979c1c0bf6322c899b5aca852d090db027b3b48d26d5fb4cc78fb8a8c13690278c975f280070ade1693166a929c1534973fea1
   languageName: node
   linkType: hard
 
@@ -286,12 +294,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@ivangabriele/tsconfig@workspace:."
   dependencies:
-    "@commitlint/cli": "npm:17.0.0"
-    "@commitlint/config-conventional": "npm:17.0.0"
-    "@ivangabriele/commitlint-config": "npm:1.0.5"
-    "@ivangabriele/prettier-config": "npm:3.0.2"
-    husky: "npm:8.0.1"
-    prettier: "npm:2.6.2"
+    "@commitlint/cli": "npm:17.8.1"
+    "@commitlint/config-conventional": "npm:17.8.1"
+    "@ivangabriele/commitlint-config": "npm:1.1.0"
+    "@ivangabriele/prettier-config": "npm:3.2.0"
+    husky: "npm:8.0.3"
+    prettier: "npm:2.8.8"
     shelljs: "npm:0.8.5"
   languageName: unknown
   linkType: soft
@@ -594,14 +602,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"conventional-changelog-conventionalcommits@npm:^4.3.1":
-  version: 4.6.3
-  resolution: "conventional-changelog-conventionalcommits@npm:4.6.3"
+"conventional-changelog-conventionalcommits@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "conventional-changelog-conventionalcommits@npm:5.0.0"
   dependencies:
     compare-func: "npm:^2.0.0"
     lodash: "npm:^4.17.15"
     q: "npm:^1.5.1"
-  checksum: 10c0/f3b5e6132ec03dad4aa4a2b5ac47ee0e2ae8be6d0fa53a131c722412ce7c02a742c190790f15b5ab4983a31ce90b7066ce1f3f3d5cc4253aa3484ee414259bd2
+  checksum: 10c0/02cc9313b44953332e9d45833615675cbc4d0f4129b27ea7218f8f4fc2f35124748725969c0cb3dc645713d19684540b87c5af25bd17ce3dccd7ef4e05e42442
+  languageName: node
+  linkType: hard
+
+"conventional-changelog-conventionalcommits@npm:^6.1.0":
+  version: 6.1.0
+  resolution: "conventional-changelog-conventionalcommits@npm:6.1.0"
+  dependencies:
+    compare-func: "npm:^2.0.0"
+  checksum: 10c0/b313f5c0160d109f58d976566e1331ede3a25ab19fbf43f86763b280659195de00a68551f7f3930bf1cbf39a5e707d94f2a25b79996e59043fa9ee0bed68a79f
   languageName: node
   linkType: hard
 
@@ -917,12 +934,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:8.0.1":
-  version: 8.0.1
-  resolution: "husky@npm:8.0.1"
+"husky@npm:8.0.3":
+  version: 8.0.3
+  resolution: "husky@npm:8.0.3"
   bin:
     husky: lib/bin.js
-  checksum: 10c0/58c0e87c37f0aaea4e0ea02499444df11adb9ec182fd42735385045b51a55cbdcca48afeea337801e50435fbeb0e77c57c2b430695663774afb279bb0e8aa25f
+  checksum: 10c0/6722591771c657b91a1abb082e07f6547eca79144d678e586828ae806499d90dce2a6aee08b66183fd8b085f19d20e0990a2ad396961746b4c8bd5bdb619d668
   languageName: node
   linkType: hard
 
@@ -1125,6 +1142,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash.isfunction@npm:^3.0.9":
+  version: 3.0.9
+  resolution: "lodash.isfunction@npm:3.0.9"
+  checksum: 10c0/e88620922f5f104819496884779ca85bfc542efb2946df661ab3e2cd38da5c8375434c6adbedfc76dd3c2b04075d2ba8ec215cfdedf08ddd2e3c3467e8a26ccd
+  languageName: node
+  linkType: hard
+
 "lodash.isplainobject@npm:^4.0.6":
   version: 4.0.6
   resolution: "lodash.isplainobject@npm:4.0.6"
@@ -1181,7 +1205,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash@npm:^4.17.15, lodash@npm:^4.17.19":
+"lodash@npm:^4.17.15":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: 10c0/d8cbea072bb08655bb4c989da418994b073a608dffa608b09ac04b43a791b12aeae7cd7ad919aa4c925f33b48490b5cfe6c1f71d827956071dae2e7bb3a6b74c
@@ -1435,12 +1459,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.6.2":
-  version: 2.6.2
-  resolution: "prettier@npm:2.6.2"
+"prettier@npm:2.8.8":
+  version: 2.8.8
+  resolution: "prettier@npm:2.8.8"
   bin:
     prettier: bin-prettier.js
-  checksum: 10c0/4a2717d0aca6b5b5c24570854fdf119c4184ff7422a1aa283364bdfe5394ecff4f6ac375663840dc2680ea09b1d5370329b83ac06579588db6f8bc71620e1267
+  checksum: 10c0/463ea8f9a0946cd5b828d8cf27bd8b567345cf02f56562d5ecde198b91f47a76b7ac9eae0facd247ace70e927143af6135e8cf411986b8cb8478784a4d6d724a
   languageName: node
   linkType: hard
 

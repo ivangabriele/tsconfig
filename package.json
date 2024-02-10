@@ -17,12 +17,12 @@
     "postversion": "node ./scripts/finalizeVersionBump.js"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.0.0",
-    "@commitlint/config-conventional": "17.0.0",
-    "@ivangabriele/commitlint-config": "1.0.5",
-    "@ivangabriele/prettier-config": "3.0.2",
-    "husky": "8.0.1",
-    "prettier": "2.6.2",
+    "@commitlint/cli": "17.8.1",
+    "@commitlint/config-conventional": "17.8.1",
+    "@ivangabriele/commitlint-config": "1.1.0",
+    "@ivangabriele/prettier-config": "3.2.0",
+    "husky": "8.0.3",
+    "prettier": "2.8.8",
     "shelljs": "0.8.5"
   },
   "packageManager": "yarn@4.1.0",
