@@ -9,7 +9,7 @@
     "node": ">=20"
   },
   "peerDependencies": {
-    "next": "^14",
+    "next": "^15.0.0",
     "typescript": "^5"
   },
   "publishConfig": {
