@@ -307,7 +307,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@ivangabriele/tsconfig-base@workspace:packages/base"
   peerDependencies:
-    typescript: ^5
+    typescript: ^7.0.0
   languageName: unknown
   linkType: soft
 
@@ -316,7 +316,7 @@ __metadata:
   resolution: "@ivangabriele/tsconfig-next@workspace:packages/next"
   peerDependencies:
     next: ^14
-    typescript: ^5
+    typescript: ^7.0.0
   languageName: unknown
   linkType: soft
 
@@ -324,7 +324,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@ivangabriele/tsconfig-node@workspace:packages/node"
   peerDependencies:
-    typescript: ^5
+    typescript: ^7.0.0
   languageName: unknown
   linkType: soft
 
@@ -332,7 +332,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@ivangabriele/tsconfig-react@workspace:packages/react"
   peerDependencies:
-    typescript: ^5
+    typescript: ^7.0.0
   languageName: unknown
   linkType: soft
 
